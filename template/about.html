@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Bahay Kubo: Fusion of Tradition & Modernity - About Us</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f5f0;
+            text-align: center;
+            background-image: url('che.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+        }
+
+        nav {
+            background-color: #f9f5f0;
+            padding: 15px 0;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            color: #5d4037;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #e8e3dd;
+            color: #795548;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .about-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 800px;
+            text-align: left;
+            margin: 20px;
+        }
+
+        .about-box h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #222;
+            font-family: 'Georgia', serif;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .about-box p {
+            line-height: 1.7;
+        }
+
+        footer {
+            background-color: #f9f5f0;
+            color: #666;
+            padding: 30px 60px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+
+   <nav>
+    <a href="{{ url_for('home') }}">Home</a>
+    <a href="{{ url_for('products') }}">Products</a>
+    <a href="{{ url_for('about') }}">About Us</a>
+    <a href="{{ url_for('contact') }}">Contact Us</a>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+</nav>
+
+
+    <section>
+        <div class="about-box">
+            <h1>ABOUT US</h1>
+            <p>
+                Welcome to Modern Bahay Kubo, your gateway to the harmonious fusion of traditional Filipino architecture and contemporary design: the modern Bahay Kubo. Our mission is to celebrate the enduring legacy of the Bahay Kubo while exploring its exciting evolution in the 21st century.
+            </p>
+            <p>
+                We believe that the Bahay Kubo's inherent principles of sustainability, adaptability, and community are more relevant than ever. Our team is dedicated to showcasing how these timeless values can be seamlessly integrated with modern materials, innovative technologies, and contemporary aesthetics.
+            </p>
+            <p>
+                We offer a wealth of resources and inspiration, including:
+            </p>
+            <ul>
+                <li><strong>Design Showcases:</strong> Explore stunning examples of modern Bahay Kubo designs, featuring innovative architectural solutions and sustainable materials.</li>
+                <li><strong>Historical Insights:</strong> Delve into the rich history and cultural significance of the traditional Bahay Kubo.</li>
+                <li><strong>Architect and Designer Profiles:</strong> Discover the talented individuals who are shaping the future of Filipino architecture.</li>
+
+            </ul>
+            <p>
+                Our goal is to inspire a new generation of homeowners and architects to embrace the beauty and practicality of the modern Bahay Kubo, creating homes that are both culturally rich and environmentally responsible. Join us as we reimagine the Filipino home for the future.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 ModernBahayKubo. All Rights Reserved.
+    </footer>
+</body>
+</html>
